@@ -3,7 +3,6 @@ import Home from "./home";
 import Products from "./products";
 import NewSeller from "./newseller";
 import Signup from "./signup";
-
 function App() {
   return (
     <BrowserRouter>
@@ -23,7 +22,9 @@ function App() {
         <Route path="/newseller" element={<NewSeller />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>
+      
     </BrowserRouter>
+    
   );
 }
 
